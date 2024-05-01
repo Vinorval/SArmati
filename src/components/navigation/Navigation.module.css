@@ -1,0 +1,12 @@
+.button {
+    background-image: linear-gradient( to right, #e264b0 0%, #8f51a5 45%, #2a3a98 100% );
+    color: white;
+    border: none;
+    border-radius: 80px;
+    font-size: 1rem;
+}
+
+.button_length_long {
+    width: 177px;
+    height: 40px;
+}

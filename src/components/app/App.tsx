@@ -1,20 +1,20 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Navigation from './Navigation';
+import Navigation from '../navigation/Navigation';
 
-import HomePage from '../pages/HomePage';
-import BrendsPage from '../pages/BrendsPage';
-import LensTypePage from '../pages/LensTypePage';
-import LensItemPage from '../pages/LensItemPage';
+import HomePage from '../../pages/HomePage';
+import BrendsPage from '../../pages/BrendsPage';
+import LensTypePage from '../../pages/LensTypePage';
+import LensItemPage from '../../pages/LensItemPage';
 
-import CompanyPage from '../pages/CompanyPage';
-import AddressPage from '../pages/AddressPage';
+import CompanyPage from '../../pages/CompanyPage';
+import AddressPage from '../../pages/AddressPage';
 
-import ArticlesPage from '../pages/ArticlesPage';
-import ArticlesItemPage from '../pages/ArticlesItemPage';
+import ArticlesPage from '../../pages/ArticlesPage';
+import ArticlesItemPage from '../../pages/ArticlesItemPage';
 
-import NotFoundPage from '../pages/NotFoundPage';
+import NotFoundPage from '../../pages/NotFoundPage';
 
 function App() {
   return (
